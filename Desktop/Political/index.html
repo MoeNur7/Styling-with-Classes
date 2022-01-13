@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Political Meter</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Political Meter</h1>
+      
+      <p>What are users values?</p>
+
+      <form id="Politic">
+        <Label for="user">User</Label>
+        <input id="user" type="text">
+        <p>Choose your belief</p>
+        <input type="radio" id="moderate" name="belief" value="moderate" checked>
+        <label for="moderate">moderate</label>
+
+        <input type="radio" id="conservative" name="belief" value="conservative">
+        <label for="conservative">conservative</label>
+
+        <input type="radio" id="liberal" name="belief" value="liberal">
+        <label for="liberal">liberal</label>
+
+        <button type="submit" class="button" >submit</button>
+     
+      </form>
+      <div id="conclusion">
+        <span id="name1" ></span> is<span id="belief"></span>
+      </div>
+
+    </div>
+</body>
+</html>
